@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 280px;
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h3 {
+      margin-top: 0;
+      color: #ff0000;
+      font-size: 16px;
+    }
+    .counter-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      margin-bottom: 10px;
+    }
+    #count {
+      color: #ff0000;
+      font-size: 20px;
+    }
+    #refreshBtn {
+      background-color: #f0f0f0;
+    }
+    #refreshBtn:hover {
+      background-color: #e5e5e5;
+    }
+    #resetBtn {
+      background-color: #ffebee;
+      border-color: #ffcdd2;
+      color: #c62828;
+    }
+    #resetBtn:hover {
+      background-color: #ffcdd2;
+    }
+  </style>
+</head>
+<body>
+  <h3>YouTube Bypasser</h3>
+  <div class="counter-box">
+    So far, extension help you bypass the playback pause issue: <span id="count">0</span> time(s)
+  </div>
+  
+  <!-- <button id="refreshBtn">🔄 Force Sync Value</button> -->
+   <!-- <button id="resetBtn">🗑️ Reset Counter to 0</button> -->
+
+  <script src="popup.js"></script>
+</body>
+</html>
