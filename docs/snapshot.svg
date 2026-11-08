@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient></defs>
+<rect width="1200" height="640" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="44" rx="18" fill="#21262d"/><rect y="26" width="1200" height="18" fill="#21262d"/>
+<circle cx="28" cy="22" r="7" fill="#ff5f56"/><circle cx="52" cy="22" r="7" fill="#ffbd2e"/><circle cx="76" cy="22" r="7" fill="#27c93f"/>
+<text x="600" y="28" fill="#8b949e" font-size="15" text-anchor="middle">github.com/panhavad/yt-playback-bypass</text>
+<rect x="40" y="76" width="6" height="58" rx="3" fill="#f1e05a"/>
+<text x="62" y="118" fill="#f0f6fc" font-size="40" font-weight="700">YT Playback Pause Auto-Refresh</text>
+<text x="62" y="168" fill="#c9d1d9" font-size="20">Chrome extension that detects YouTube&#x27;s &#x27;Playback paused because your account is being used</text>
+<text x="62" y="198" fill="#c9d1d9" font-size="20">in another location&#x27; message and auto-refreshes.</text>
+<rect x="40" y="270" width="520" height="330" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="62" y="302" fill="#8b949e" font-size="15" font-weight="600">PROJECT STRUCTURE</text>
+<text x="62" y="334" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── background.js</text>
+<text x="62" y="361" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── content.js</text>
+<text x="62" y="388" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── icon128.png</text>
+<text x="62" y="415" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── icon16.png</text>
+<text x="62" y="442" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── icon32.png</text>
+<text x="62" y="469" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── icon48.png</text>
+<text x="62" y="496" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── icon64.png</text>
+<text x="62" y="523" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── manifest.json</text>
+<text x="62" y="550" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── popup.html</text>
+<text x="62" y="577" fill="#7ee787" font-size="17" font-family="Consolas, monospace">└── … 1 more</text>
+<rect x="590" y="270" width="570" height="230" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="612" y="302" fill="#8b949e" font-size="15" font-weight="600">HOW IT WORKS</text>
+<rect x="612" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="692" y="356" fill="#e6edf3" font-size="15" text-anchor="middle">YouTube tab</text>
+<path d="M774 350 h18" stroke="#8b949e" stroke-width="2"/><path d="M792 350 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="794" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="874" y="356" fill="#e6edf3" font-size="15" text-anchor="middle">content.js 1s check</text>
+<path d="M956 350 h18" stroke="#8b949e" stroke-width="2"/><path d="M974 350 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="976" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="1056" y="356" fill="#e6edf3" font-size="15" text-anchor="middle">Pause message?</text>
+<path d="M1056 380 v12 H692 v14" stroke="#8b949e" stroke-width="2" fill="none"/>
+<rect x="612" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="692" y="442" fill="#e6edf3" font-size="15" text-anchor="middle">Show notice</text>
+<path d="M774 436 h18" stroke="#8b949e" stroke-width="2"/><path d="M792 436 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="794" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="874" y="432" fill="#e6edf3" font-size="15" text-anchor="middle">background.js:</text>
+<text x="874" y="452" fill="#e6edf3" font-size="15" text-anchor="middle">count++</text>
+<path d="M956 436 h18" stroke="#8b949e" stroke-width="2"/><path d="M974 436 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="976" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#f1e05a"/>
+<text x="1056" y="442" fill="#e6edf3" font-size="15" text-anchor="middle">Reload tab</text>
+<text x="612" y="534" fill="#8b949e" font-size="15" font-weight="600">TECH STACK</text>
+<rect x="612" y="548" width="108" height="32" rx="16" fill="#f1e05a" fill-opacity="0.18" stroke="#f1e05a"/>
+<text x="666.0" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">JavaScript</text>
+<rect x="730" y="548" width="198" height="32" rx="16" fill="#f1e05a" fill-opacity="0.18" stroke="#f1e05a"/>
+<text x="829.0" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">Chrome Extension MV3</text>
+</svg>
